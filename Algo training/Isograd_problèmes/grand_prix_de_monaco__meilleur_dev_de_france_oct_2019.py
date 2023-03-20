@@ -1,5 +1,5 @@
 # copier le code à :
-# https://demo.isograd.com/runtest/QuestionDisplayer?
+# https://www.isograd-testingservices.com/FR/solutions-challenges-de-code?cts_id=57&reg_typ_id=2&que_str_id=&cli_id=45alrk6jpdnaguf3oa3gto2875&rtn_pag=https%3A%2F%2Fwww.isograd-testingservices.com%2F%2FFR%2Fsolutions-challenges-de-code%3Fcts_id%3D55
 
 import sys
 
@@ -27,16 +27,15 @@ else :
     
     for line in lines :
         id_pilote = int(line[0]+line[1])
-        #print("idPi : ", id_pilote)
+        #sys.stderr.write("idPi : ", id_pilote)
 
         classement_pilote = classement_général.index(id_pilote)
-        #print("index Pi : ", classement_pilote)
+        #sys.stderr.write("index Pi : ", classement_pilote)
         classement_pilote_depasse = classement_général.index(id_pilote)-1
-        #print("index Pi dépassé : ", classement_pilote_depasse)
+        #sys.stderr.write("index Pi dépassé : ", classement_pilote_depasse)
         
         if line.find("I") != -1 and id_pilote == n :
-            classement_ko = "KO"
-            print(classement_ko)
+            print("KO")
             
         else :
             if line.find("D") != -1 :
