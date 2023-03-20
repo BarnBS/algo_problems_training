@@ -1,5 +1,5 @@
 # Copier/coller le code ci-dessous à l'adresse suivante :
-# https://demo.isograd.com/runtest/QuestionDisplayer#output
+# https://www.isograd-testingservices.com/FR/solutions-challenges-de-code?cts_id=99&reg_typ_id=2&que_str_id=&cli_id=45alrk6jpdnaguf3oa3gto2875&rtn_pag=https%3A%2F%2Fwww.isograd-testingservices.com%2F%2FFR%2Fsolutions-challenges-de-code%3Fcts_id%3D33
 
 import sys
 
